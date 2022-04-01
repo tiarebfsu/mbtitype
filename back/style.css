@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(111, 162, 132);
+}
+
+h1{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(33, 53, 71);
+}
+
+h2{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(205, 192, 5);
+}
+
+h3{
+    text-align:left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(24, 99, 165);
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(23, 83, 23);
+    position: sticky;
+    align-content: center;
+
+}
+
+ul li {
+    float: right;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: none;
+    border-right: 1px solid #bbb;
+}
+
+ul li a:hover {
+    background-color: #111;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #e06610;
+}
+
+.tiare {
+    background-color:rgb(54, 126, 61);
+    color:white;
+    margin: 100px;
+    padding:20px;
+}	
+
+.poss {
+    background-color:rgb(17, 145, 113);
+    color:white;
+    margin: 100px;
+    padding:20px;
+}
+
+.goin {
+    background-color: rgb(17, 144, 41);
+    color: blue;
+    margin: 100px;
+    padding:20px;
+}
