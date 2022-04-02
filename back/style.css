@@ -7,19 +7,22 @@ body {
 h1{
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(33, 53, 71);
+    color: rgb(206, 178, 130);
+    font-size: 50px;
 }
 
 h2{
-    text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(205, 192, 5);
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: rgb(223, 221, 210);
 }
 
 h3{
     text-align:left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(24, 99, 165);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(206, 178, 45);
 }
 
 
@@ -29,7 +32,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(23, 83, 23);
+    background-color: rgb(29, 65, 33);
     position: sticky;
     align-content: center;
 
@@ -41,7 +44,9 @@ ul li {
 
 ul li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -62,20 +67,26 @@ li a:hover:not(.active) {
 
 .tiare {
     background-color:rgb(54, 126, 61);
-    color:white;
+    color:rgb(228, 223, 223);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: justify;
     margin: 100px;
     padding:20px;
 }	
 
 .poss {
-    background-color:rgb(17, 145, 113);
-    color:white;
+    background-color:rgb(19, 145, 19);
+    color:rgb(255, 228, 228);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: justify;
     margin: 100px;
     padding:20px;
 }
 
 .goin {
-    background-color: rgb(17, 144, 41);
+    background-color: rgb(26, 130, 45);
     color: blue;
     margin: 100px;
     padding:20px;
